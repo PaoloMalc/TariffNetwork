@@ -27,9 +27,9 @@ Because the curves are linear, the Consumer Surplus and Producer Surplus corresp
 
 ### Example 2
 
-In this example, we initialized the solver by defining two different initial conditions within the model variables. This method was used to extract the matrices and evaluate the respective multiple equilibrium flux matrices calculated by the solver depending on the starting values.
+In this example, we initialized the solver by defining two different initial conditions within the model variables. This method was used to evaluate the respective multiple equilibrium flux matrices calculated by the solver depending on the starting values.
 
 ### Example 3
 
-To reproduce the third example, we initialized the matrix by imposing a 10% fixed tariff from countries 3 and 4 towards all possible destinations. Following this setup phase, we introduced a random perturbation into the system to prevent the formation of structural cycles within the bipartite graph of the trade network.
+To reproduce the third example, we initialized the initial tariff matrix by imposing a 10% fixed tariff from countries 3 and 4 towards all possible destinations. Following this setup phase, we introduced a random perturbation into the system to prevent the formation of structural cycles within the bipartite graph of the trade network.
 
