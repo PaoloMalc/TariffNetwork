@@ -15,7 +15,7 @@ For the model development, we relied on two main Julia packages:
 
 ## Description of the Examples
 
-### Example 1
+### Example 2
 
 For the first example, we simply called the solver on the base model. Given the linear nature of the supply and demand functions (based on the parameters $a, s$ for supply and $b, d$ for demand), the main welfare metrics for Country 2 can be calculated analytically.
 
@@ -25,11 +25,11 @@ Because the curves are linear, the Consumer Surplus and Producer Surplus corresp
     
 - **Producer Surplus (PS):** $PS = \frac{1}{2} s \cdot Q_S^2$
 
-### Example 2
+### Example 3
 
 In this example, we initialized the solver by defining two different initial conditions within the model variables. This method was used to evaluate the respective multiple equilibrium flux matrices calculated by the solver depending on the starting values.
 
-### Example 3
+### Example 4
 
-To reproduce the third example, we initialized the initial tariff matrix by imposing a 10% fixed tariff from countries 3 and 4 towards all possible destinations. Following this setup phase, we introduced a random perturbation into the system to prevent the formation of structural cycles within the bipartite graph of the trade network.
+To reproduce the fourth example, we initialized the initial tariff matrix by imposing a 10% fixed tariff from countries 3 and 4 towards all possible destinations. Following this setup phase, we introduced a random perturbation into the system to prevent the formation of structural cycles within the bipartite graph of the trade network.
 
